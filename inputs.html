@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input FieldsL</title>
+</head>
+<body>
+   
+    <h3>Understanding about Form Fields</h3>
+   
+    <form >
+        <p>
+            <label for="textField">Input Text Field</label>
+            <input type="text" name="textField" placeholder="Enter a alphanumeric value"  />
+        </p>
+        <p>
+            <label for="numberField">Input Number Field</label>
+            <input type="number" name="numberField" placeholder="Enter a number" />
+        </p>
+        <p>
+            <label for="colorField">Input Color Field</label>
+            <input type="color" name="colorField" placeholder="select a color"/>
+        </p>
+        <p>
+            
+            <input type="checkbox" name="checkboxField1" checked value="checkbox1" />
+            <label for="checkboxField1">Input checkbox1  Field</label>
+
+            <input type="checkbox" name="checkboxField2" value="checkbox2" />
+            <label for="checkboxField2">Input checkbox1  Field</label>
+
+            <input type="checkbox" name="checkboxField3" value="checkbox3" />
+            <label for="checkboxField3">Input checkbox1  Field</label>
+        </p>
+
+        <p>
+            <input type="radio" id="radioField1" name="radioField" value="radioField1" />
+            <label for="radioField1">radioField1</label>
+            <input type="radio"id="radioField2" name="radioField" value="radioField2" />
+            <label for="radioField2">radioField2</label>
+            <input type="radio" id="radioField3" name="radioField" value="radioField3" />
+            <label for="radioField3">radioField3</label>
+        </p>
+
+        <p>
+            <label for="calenderDateField">Input  date field</label>
+            <input type="date" name="date" id="calenderDateField" autofocus><br/>
+
+            <label for="calenderDateTimeField">Input  date time field</label>
+            <input type="datetime-local" name="datetime" id="calenderDateTimeField"><br/>
+
+            <label for="calenderTimeField">Input   time field</label>
+            <input type="time" name="time" id="calenderDateTimeField"><br/>
+
+            <label for="calenderMonthField">Input  Month field</label>
+            <input type="month" name="month" id="calenderMonthField"><br/>
+
+            <label for="calenderweekField">Input  week field</label>
+            <input type="10" name="week" id="calenderweekField" >
+        </p>
+        <p>
+            <label for="emailField">Input  Email field</label>
+            <input type="email" name="email" id="emailField" autocomplete="off"><br/>
+        </p>
+        <p>
+            <label for="urlField">Input  url field</label>
+            <input type="url" name="url" id="urlField" auto><br/>
+        </p>
+
+        <p>
+            <label for="telField">Input  tel field</label>
+            <input type="tel" name="tel" id="telField" autocomplete="off" placeholder="123-45-678" 
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"  novalidate><br/>
+        </p>
+
+        <p>
+            <label for="fileField">Input  File field</label>
+            <input type="file" id="fileField" name="file" height="10" width="200">
+        </p>
+
+        <p>
+            <label for="imageField">Image  field</label>
+            <input type="image" src="./photo1.jpg" id="imageField" name="image"  >
+        </p>
+
+        <p>
+            <label for="rangeField">Range  field</label>
+            <input type="range" min="0"  max="10" step="2" id="rangField" name="range" >
+        </p>
+
+        <p>
+            <label for="textField">Input Text Fields with 2 hidden</label>
+            <input type="text" name="textField" placeholder="Enter a alphanumeric value" />
+            <input type="text" name="textField" placeholder="Enter a alphanumeric value" />
+            <input type="hidden" name="textField" placeholder="Enter a alphanumeric value" />
+            <input type="hidden" name="textField" placeholder="Enter a alphanumeric value" />
+            <input type="text" name="textField" placeholder="Enter a alphanumeric value" />
+        </p>
+
+        <p>
+            <label for="password">input password field</label>
+            <input type="password" minlength="0" maxlength="9" name="password">
+        </p>
+
+        <p>
+            <label for="search">input search field</label>
+            <input type="search" name="search" disabled>
+        </p>
+
+        <p>
+            <button type="submit" disabled>Submit</button>
+            <input type="button" value="Submit">
+        </p>
+        
+    </form>
+</body>
+</html>
+
+
+
+

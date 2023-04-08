@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>showcasing Video or audio elements in HTML</title>
+</head>
+<body>
+    <h1>showcasing Video or audio elements in HTML</h1>
+
+
+    <h3>Default video without controls</h3>
+    <video width="320" height="240">
+        <source src="./video1.mp4" type="video/mp4">
+        Your browser doesent support video tag
+    </video>
+
+    <h3>Default video with controls</h3>
+    <video width="320" height="240" controls>
+        <source src="./video1.mp4" type="video/mp4">
+        Your browser doesent support video tag
+    </video>
+
+    <h3>Default video without  controls but autoplayed</h3>
+    <video width="320" height="240" autoplay >
+        <source src="./video1.mp4" type="video/mp4">
+        Your browser doesent support video tag
+    </video>
+
+
+    <h3>Default video with controls and  autoplayed</h3>
+    <video width="320" height="240" controls autoplay >
+        <source src="./video1.mp4" type="video/mp4">
+        Your browser doesent support video tag
+    </video>
+
+    <h3>Default video with controls and  autoplayed but muted </h3>
+    <video width="320" height="240" controls autoplay muted >
+        <source src="./video1.mp4" type="video/mp4">
+        Your browser doesent support video tag
+    </video>
+
+
+    <h3>ulti unless handled by js we cant add absolute urls in video tags  this below code will not run</h3>
+    <video width="320" height="240" controls autoplay muted >
+        <source src="./video1.mp4" type="video/mp4">
+        Your browser doesent support video tag
+    </video>
+
+    
+
+
+    <!-- adding a youtube page part in your html page -->
+    <!-- <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+    </iframe> -->
+
+    <h3>Default audio no interface will be shown</h3>
+    <audio >
+        <source src="./song1.mp3" type="audio/mpeg">
+    </audio>
+    <h3>Default audio  interface will be shown</h3>
+    <audio controls>
+        <source src="./song1.mp3" type="audio/mpeg">
+    </audio>
+
+    <h3>Default audio  interface with autoplay</h3>
+    <audio controls >   <!--autoplay -->
+        <source src="./song1.mp3" type="audio/mpeg">
+    </audio>
+
+    <h3>Default audio  interface will be shown</h3>
+    <audio controls muted>
+        <source src="./song1.mp3" type="audio/mpeg">
+    </audio>
+
+    
+</body>
+</html>
